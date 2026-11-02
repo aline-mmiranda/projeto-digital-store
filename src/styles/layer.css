@@ -1,4 +1,8 @@
 @layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+
   input::placeholder,
   textarea::placeholder {
     color: var(--color-dark-gray-3);
