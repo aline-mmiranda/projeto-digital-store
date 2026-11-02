@@ -15,7 +15,7 @@ function SearchField() {
             icon={Search}
             color="var(--color-dark-gray-3)"
             opacity={0.5}
-            className="absolute top-4.5 right-15"
+            className="absolute top-4.5 right-15 cursor-pointer"
           />
         </div>
     </>
