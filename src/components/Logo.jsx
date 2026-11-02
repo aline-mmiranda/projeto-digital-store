@@ -1,4 +1,4 @@
-function Logo({ color, ...props }) {
+const Logo = ({ color, ...props }) => {
   return (
     <>
       <svg

@@ -3,12 +3,18 @@ import Logo from "./Logo";
 import SearchField from "./SearchField";
 import Icons from "./Icons";
 import { useState } from "react";
+import SideMenu from "./SideMenu";
 
-function Header() {
+const Header = () => {
   const [showSearch, setShowSearch] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   function handleSearchClick() {
     setShowSearch(!showSearch);
+  }
+
+  function handleMenuClick() {
+    setShowMenu(!showMenu);
   }
   return (
     <>
@@ -18,6 +24,7 @@ function Header() {
           icon={Menu}
           color="var(--color-dark-gray)"
           strokeWidth={2}
+          onClick={handleMenuClick}
         />
         <Logo
           className="absolute left-1/2 -translate-x-1/2"
@@ -40,8 +47,9 @@ function Header() {
         </div>
       </header>
       {showSearch && <SearchField />}
+      {showMenu && <SideMenu />}
     </>
   );
-}
+};
 
 export default Header;

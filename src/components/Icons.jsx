@@ -1,4 +1,4 @@
-function Icons({
+const Icons = ({
   icon: Icon,
   color,
   size = 24,
@@ -6,7 +6,7 @@ function Icons({
   opacity,
   className,
   ...props
-}) {
+}) => {
   return (
     <Icon
       color={color}
