@@ -24,9 +24,9 @@ const SideMenu = () => {
 
         <hr className="w-62 border border-light-gray-2" />
         <div className="flex justify-center items-center gap-4.25">
-          <button className="w-28.5 h-10 bg-primary rounded-lg font-bold text-[14px] leading-5.5 tracking-[0.75px] horizontal-align-center vertical-align-middle text-light-gray-3">
+          <a href="" className="w-28.5 h-10 bg-primary rounded-lg font-bold text-[14px] leading-5.5 tracking-[0.75px]  text-light-gray-3 flex justify-center items-center">
             Entrar
-          </button>
+          </a>
           <a
             href=""
             className="text-[16px] leading-7 tracking-[0.75px] underline decoration-solid text-dark-gray-2"
