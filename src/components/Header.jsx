@@ -6,15 +6,14 @@ import { useState } from "react";
 import SideMenu from "./SideMenu";
 
 const Header = () => {
-  const [showSearch, setShowSearch] = useState(false);
-  const [showMenu, setShowMenu] = useState(false);
+  const [activePanel, setActivePanel] = useState(null);
 
   function handleSearchClick() {
-    setShowSearch(!showSearch);
+    setActivePanel(activePanel === "search" ? null : "search");
   }
 
   function handleMenuClick() {
-    setShowMenu(!showMenu);
+    setActivePanel(activePanel === "menu" ? null : "menu");
   }
   return (
     <>
@@ -38,16 +37,11 @@ const Header = () => {
             size={20}
             onClick={handleSearchClick}
           />
-          <Icons
-            className="cursor-pointer"
-            icon={ShoppingCart}
-            color="var(--color-primary)"
-            size={20}
-          />
+          <Icons icon={ShoppingCart} color="var(--color-primary)" size={20} />
         </div>
       </header>
-      {showSearch && <SearchField />}
-      {showMenu && <SideMenu />}
+      {activePanel === "search" && <SearchField />}
+      {activePanel === "menu" && <SideMenu />}
     </>
   );
 };
