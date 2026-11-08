@@ -4,6 +4,7 @@ import SearchField from "./SearchField";
 import Icons from "./Icons";
 import { useState } from "react";
 import SideMenu from "./SideMenu";
+import { Link } from "react-router";
 
 const Header = () => {
   const [activePanel, setActivePanel] = useState(null);
@@ -34,18 +35,18 @@ const Header = () => {
             <SearchField />
           </div>
           <div className="hidden xl:flex xl:justify-center xl:items-center xl:gap-7.5 xl:mr-17.5">
-            <a
-              href=""
+            <Link
+              to=""
               className="text-[16px] leading-7 tracking-[0.75px] underline decoration-solid text-dark-gray-2"
             >
               Cadastre-se
-            </a>
-            <a
-              href=""
+            </Link>
+            <Link
+              to=""
               className="w-28.5 h-10 bg-primary rounded-lg font-bold text-[14px] leading-5.5 tracking-[0.75px]  text-light-gray-3 flex justify-center items-center"
             >
               Entrar
-            </a>
+            </Link>
           </div>
           <div className="flex gap-3.25">
             <Icons

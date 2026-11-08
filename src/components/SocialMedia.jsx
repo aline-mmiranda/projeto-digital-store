@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
@@ -6,15 +7,15 @@ const SocialMedia = () => {
   return (
     <>
       <div className="flex items-center gap-8.75 mb-10">
-        <a href="">
+        <Link to="/facebook">
           <img src={facebook} alt="Facebook" />
-        </a>
-        <a href="">
+        </Link>
+        <Link to="/instagram">
           <img src={instagram} alt="Instagram" />
-        </a>
-        <a href="">
+        </Link>
+        <Link to="/twitter">
           <img src={twitter} alt="Twitter" />
-        </a>
+        </Link>
       </div>
     </>
   );
