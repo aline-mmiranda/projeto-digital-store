@@ -22,7 +22,7 @@ const Footer = () => {
             <SocialMedia />
           </div>
           <div className="grid grid-cols-2 gap-x-8 gap-y-10 xl:contents">
-            <div className="xl:col-span-1 xl:col-start-6">
+            <div className="xl:col-span-2 xl:col-start-6">
               <FooterInfo title="Informação" informations={informations} />
             </div>
             <div className="xl:col-span-1 xl:col-start-8">
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="border border-white opacity-30 w-[95%] mx-auto mt-10 mb-5.75 xl:w-full" />
+        <hr className="border border-white opacity-30 w-full mx-auto mt-10 mb-5.75" />
         <p className="flex justify-center items-center text-[13px] tracking-[0%] leading-6">
           @ 2026 Digital Store
         </p>
