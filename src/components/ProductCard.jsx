@@ -17,9 +17,11 @@ const ProductCard = ({ image, name, price, priceDiscount }) => {
             >
               {price}
             </span>
-            <span className="font-bold text-[16px] leading-6  text-dark-gray xl:text-[24px] xl:leading-9.5 tracking-[0.75px]">
-              {priceDiscount}
-            </span>
+            {priceDiscount && (
+              <span className="font-bold text-[16px] leading-6  text-dark-gray xl:text-[24px] xl:leading-9.5 tracking-[0.75px]">
+                {priceDiscount}
+              </span>
+            )}
           </div>
         </div>
       </div>
