@@ -1,4 +1,4 @@
-const ProductCard = ({ image, name, price, priceDiscount }) => {
+const ProductCard = ({ image, category, name, price, priceDiscount }) => {
   return (
     <>
       <div className="w-40.75 h-66 xl:w-73 xl:h-109.75">
@@ -8,7 +8,10 @@ const ProductCard = ({ image, name, price, priceDiscount }) => {
           className="w-40.75 h-44.75 object-cover object-center rounded-[2.23px] shadow-[3.35px_8.93px_16.75px_0px_rgba(105,98,98,0.05) xl:w-73 xl:h-80.25 xl:rounded-sm xl:shadow-[6px_16px_30px_0px_rgba(105,98,98,0.05)"
         />
         <div>
-          <h2 className="font-medium text-[14px] leading-5.5 tracking-[0.25px] mt-2.5 xl:text-[24px] xl:leading-9.5 xl:tracking-[0.75px] xl:text-dark-gray-2 xl:mt-4.5">
+          <h3 className="font-bold text-[12px] leading-6 tracking-[0.75px] text-light-gray mt-2.5 xl:mt-4.5">
+            {category}
+          </h3>
+          <h2 className="font-medium text-[14px] leading-5.5 tracking-[0.25px] xl:font-normal xl:text-[24px] m]xl:leading-9.5 xl:tracking-[0.75px] xl:text-dark-gray-2">
             {name}
           </h2>
           <div className="flex items-center gap-2">
