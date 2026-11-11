@@ -25,36 +25,33 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="relative">
+      <div className="w-83.75 h-68.25 lg:w-175 lg:h-142.75 mx-auto relative">
         <ChevronLeft
           color="var(--color-dark-gray-2)"
-          size={14}
           strokeWidth={1.5}
-          className={`absolute top-1/2 left-9 -translate-y-1/2 bg-white rounded-full ${activeImage === 0 ? "opacity-30 pointer-events-none" : "cursor-pointer"}`}
+          className={`w-3.5 h-3.5 lg:w-5.5 lg:h-5.5 absolute top-1/2 left-4 -translate-y-1/2 bg-white rounded-full ${activeImage === 0 ? "opacity-30 pointer-events-none" : "cursor-pointer"}`}
           onClick={handlePrevious}
         />
-        <div className="w-83.75 h-68.25 m-auto">
-          <img
-            src={images[activeImage].src}
-            alt="Imagem do produto"
-            className="w-full h-full rounded-sm object-cover object-center"
-          />
-        </div>
+        <img
+          src={images[activeImage].src}
+          alt="Imagem do produto"
+          className="w-full h-full rounded-sm object-cover object-center"
+        />
         <ChevronRight
           color="var(--color-dark-gray-2)"
           size={14}
           strokeWidth={1.5}
-          className={`absolute top-1/2 right-9 -translate-y-1/2 bg-white rounded-full ${activeImage === images.length - 1 ? "opacity-30 pointer-events-none" : "cursor-pointer"}`}
+          className={`w-3.5 h-3.5 lg:w-5.5 lg:h-5.5 absolute top-1/2 right-4 -translate-y-1/2 bg-white rounded-full ${activeImage === images.length - 1 ? "opacity-30 pointer-events-none" : "cursor-pointer"}`}
           onClick={handleNext}
         />
       </div>
-      <div className="flex justify-center items-center gap-2.25 mt-2.5 mb-10">
+      <div className="flex justify-center items-center gap-2.25 mt-2.5 mb-10 lg:gap-7 lg:mt-5 lg:mb-20">
         {images.map((image, index) => (
           <button
             key={image.id}
             onClick={() => setActiveImage(index)}
             aria-pressed={activeImage === index}
-            className="w-15 h-14.5 "
+            className="w-15 h-14.5 lg:w-29.5 lg:h-24"
           >
             <img
               src={image.src}
