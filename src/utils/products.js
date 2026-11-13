@@ -4,6 +4,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 1",
     image: "product-image-1.jpeg",
+    alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
       { id: 2, src: "product-thumb-2.jpeg" },
@@ -19,6 +20,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 2",
     image: "product-image-2.jpeg",
+    alt: "Imagem do produto",
     price: 49.9,
   },
   {
@@ -26,6 +28,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 3",
     image: "product-image-3.jpeg",
+    alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
   },
@@ -34,6 +37,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 4",
     image: "product-image-4.jpeg",
+    alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
       { id: 2, src: "product-thumb-2.jpeg" },
@@ -48,6 +52,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 1",
     image: "product-image-1.jpeg",
+    alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
   },
@@ -56,6 +61,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 2",
     image: "product-image-2.jpeg",
+    alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
       { id: 2, src: "product-thumb-2.jpeg" },
@@ -70,6 +76,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 3",
     image: "product-image-3.jpeg",
+    alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
   },
@@ -78,6 +85,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 4",
     image: "product-image-4.jpeg",
+    alt: "Imagem do produto",
     price: 49.9,
   },
   {
@@ -85,6 +93,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 1",
     image: "product-image-1.jpeg",
+    alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
       { id: 2, src: "product-thumb-2.jpeg" },
@@ -100,6 +109,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 2",
     image: "product-image-2.jpeg",
+    alt: "Imagem do produto",
     price: 49.9,
   },
   {
@@ -107,6 +117,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 3",
     image: "product-image-3.jpeg",
+    alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
       { id: 2, src: "product-thumb-2.jpeg" },
@@ -122,6 +133,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 4",
     image: "product-image-4.jpeg",
+    alt: "Imagem do produto",
     price: 49.9,
   },
   {
@@ -129,6 +141,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 1",
     image: "product-image-1.jpeg",
+    alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
   },
@@ -137,6 +150,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 2",
     image: "product-image-2.jpeg",
+    alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
       { id: 2, src: "product-thumb-2.jpeg" },
@@ -151,6 +165,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 3",
     image: "product-image-3.jpeg",
+    alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
   },
@@ -159,6 +174,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 4",
     image: "product-image-4.jpeg",
+    alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
       { id: 2, src: "product-thumb-2.jpeg" },
@@ -173,6 +189,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 1",
     image: "product-image-1.jpeg",
+    alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
   },
@@ -181,6 +198,7 @@ const products = [
     category: "Tênis",
     name: "Nome do produto 2",
     image: "product-image-2.jpeg",
+    alt: "Imagem do produto",
     price: 49.9,
   },
 ];
