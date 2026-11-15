@@ -1,24 +1,25 @@
 import { Link } from "react-router";
 
-const Section = ({ title, titleAlign = "left", link, children, className }) => {
+const Section = ({ title, titleAlign = "left", link, children }) => {
   return (
     <>
-      <div className="relative flex justify-between px-5 mb-5">
-        <h1
-          className={`font-bold text-[16px] leading-6 tracking-[0.75px] text-dark-gray-2 xl:text-2xl xl:leading-9.5 ${titleAlign}`}
-        >
-          {title}
-        </h1>
-        {link && (
-          <Link
+      <section className="px-5">
+        <div className="relative mb-5">
+          <h2
+            className="font-bold text-[16px] leading-6 tracking-[0.75px] text-dark-gray-2 lg:text-[24px] lg:leading-9.5"
+            style={{ textAlign: titleAlign }}
+          >
+            {title}
+          </h2>
+          {link && <Link
             to={link.href}
-            className="font-medium text-[14px] leading-5.5 tracking-[0.25px] text-primary xl:font-normal xl:text-[18px] xl:leading-8.5 xl:tracking-[0.75px]"
+            className="absolute top-0 right-0 font-medium text-[14px] leading-5.5 tracking-[0.25px] text-primary lg:text-[18px] lg:leading-8.5 lg:tracking-[0.75px]"
           >
             {link.text}
-          </Link>
-        )}
-      </div>
-      <div className={className}>{children}</div>
+          </Link>}
+        </div>
+        {children}
+      </section>
     </>
   );
 };
