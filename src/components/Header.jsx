@@ -77,7 +77,7 @@ const Header = () => {
         </nav>
       </header>
       {activePanel === "search" && (
-        <div className="fixed top-16.5 left-0 right-0 z-90 bg-white mx-7.5 xl:hidden">
+        <div className="top-16.5 left-0 right-0 z-90 bg-white mx-7.5 mb-5 xl:hidden">
           <SearchField />
         </div>
       )}
