@@ -61,8 +61,8 @@ const products = [
   {
     id: 5,
     category: "Tênis",
-    name: "Nome do produto 1",
-    image: "product-image-1.jpeg",
+    name: "Nome do produto 5",
+    image: "product-image-5.jpeg",
     alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
@@ -70,8 +70,8 @@ const products = [
   {
     id: 6,
     category: "Tênis",
-    name: "Nome do produto 2",
-    image: "product-image-2.jpeg",
+    name: "Nome do produto 1",
+    image: "product-image-1.jpeg",
     alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
@@ -85,8 +85,8 @@ const products = [
   {
     id: 7,
     category: "Tênis",
-    name: "Nome do produto 3",
-    image: "product-image-3.jpeg",
+    name: "Nome do produto 2",
+    image: "product-image-2.jpeg",
     alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
@@ -94,16 +94,16 @@ const products = [
   {
     id: 8,
     category: "Tênis",
-    name: "Nome do produto 4",
-    image: "product-image-4.jpeg",
+    name: "Nome do produto 3",
+    image: "product-image-3.jpeg",
     alt: "Imagem do produto",
     price: 49.9,
   },
   {
     id: 9,
     category: "Tênis",
-    name: "Nome do produto 1",
-    image: "product-image-1.jpeg",
+    name: "Nome do produto 4",
+    image: "product-image-4.jpeg",
     alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
@@ -118,16 +118,16 @@ const products = [
   {
     id: 10,
     category: "Tênis",
-    name: "Nome do produto 2",
-    image: "product-image-2.jpeg",
+    name: "Nome do produto 5",
+    image: "product-image-5.jpeg",
     alt: "Imagem do produto",
     price: 49.9,
   },
   {
     id: 11,
     category: "Tênis",
-    name: "Nome do produto 3",
-    image: "product-image-3.jpeg",
+    name: "Nome do produto 1",
+    image: "product-image-1.jpeg",
     alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
@@ -142,16 +142,16 @@ const products = [
   {
     id: 12,
     category: "Tênis",
-    name: "Nome do produto 4",
-    image: "product-image-4.jpeg",
+    name: "Nome do produto 2",
+    image: "product-image-2.jpeg",
     alt: "Imagem do produto",
     price: 49.9,
   },
   {
     id: 13,
     category: "Tênis",
-    name: "Nome do produto 1",
-    image: "product-image-1.jpeg",
+    name: "Nome do produto 3",
+    image: "product-image-3.jpeg",
     alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
@@ -159,8 +159,8 @@ const products = [
   {
     id: 14,
     category: "Tênis",
-    name: "Nome do produto 2",
-    image: "product-image-2.jpeg",
+    name: "Nome do produto 4",
+    image: "product-image-4.jpeg",
     alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
@@ -174,8 +174,8 @@ const products = [
   {
     id: 15,
     category: "Tênis",
-    name: "Nome do produto 3",
-    image: "product-image-3.jpeg",
+    name: "Nome do produto 5",
+    image: "product-image-5.jpeg",
     alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
@@ -183,8 +183,8 @@ const products = [
   {
     id: 16,
     category: "Tênis",
-    name: "Nome do produto 4",
-    image: "product-image-4.jpeg",
+    name: "Nome do produto 1",
+    image: "product-image-1.jpeg",
     alt: "Imagem do produto",
     imageThumb: [
       { id: 1, src: "product-thumb-1.jpeg" },
@@ -198,8 +198,8 @@ const products = [
   {
     id: 17,
     category: "Tênis",
-    name: "Nome do produto 1",
-    image: "product-image-1.jpeg",
+    name: "Nome do produto 2",
+    image: "product-image-2.jpeg",
     alt: "Imagem do produto",
     price: 200,
     priceDiscount: 149.9,
@@ -207,8 +207,8 @@ const products = [
   {
     id: 18,
     category: "Tênis",
-    name: "Nome do produto 2",
-    image: "product-image-2.jpeg",
+    name: "Nome do produto 3",
+    image: "product-image-3.jpeg",
     alt: "Imagem do produto",
     price: 49.9,
   },
