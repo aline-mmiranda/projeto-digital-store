@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-const Section = ({ title, titleAlign = "left", link, children }) => {
+const Section = ({ title, titleAlign = "left", link, children, className }) => {
   return (
     <>
       <div className="relative flex justify-between px-5 mb-5">
@@ -18,7 +18,7 @@ const Section = ({ title, titleAlign = "left", link, children }) => {
           </Link>
         )}
       </div>
-      {children}
+      <div className={className}>{children}</div>
     </>
   );
 };
